@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class TernaryAssignmentTest extends BaseIOTest {
 
-    private static final String RAW_NUMBER_SOUT = "^.+(System\\.out\\.println\\D+\\d+\\D+);";
+    private static final String RAW_NUMBER_SOUT = "^.+(System\\.out\\.println\\D+);";
 
 
     @Test

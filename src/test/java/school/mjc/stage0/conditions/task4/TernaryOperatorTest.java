@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class TernaryOperatorTest extends BaseIOTest {
 
-    public static final String TERNARY_REGEXP = ".+(=).+(<).+(?).+(:)";
+    public static final String TERNARY_REGEXP = ".*(=).+(<).+(\\\\?).+(:).*";
     public static final String ROW_ASSIGNMENT_REGEXP = "(b)\\s*(=)\\s*23";
     private static final String RAW_NUMBER_SOUT = "^.+(System\\.out\\.println\\D+\\d+\\D+);";
 
